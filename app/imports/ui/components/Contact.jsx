@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { Card, Image } from 'react-bootstrap';
 
@@ -12,6 +13,7 @@ const Contact = ({ contact }) => (
     </Card.Header>
     <Card.Body>
       <Card.Text>{contact.description}</Card.Text>
+      <Link to={`/edit/${contact._id}`}>Edit</Link>
     </Card.Body>
   </Card>
 );
@@ -24,7 +26,7 @@ Contact.propTypes = {
     address: PropTypes.string,
     image: PropTypes.string,
     description: PropTypes.string,
-    // _id: PropTypes.string,
+    _id: PropTypes.string,
   }).isRequired,
 };
 
