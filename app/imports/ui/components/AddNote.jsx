@@ -1,9 +1,10 @@
 import React from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
-import { AutoForm, ErrorsField, SubmitField, TextField, HiddenField, PropTypes } from 'uniforms-bootstrap5';
+import { AutoForm, ErrorsField, SubmitField, TextField, HiddenField } from 'uniforms-bootstrap5';
 import swal from 'sweetalert';
 import SimpleSchema2Bridge from 'uniforms-bridge-simple-schema-2';
 import SimpleSchema from 'simpl-schema';
+import { PropTypes } from 'prop-types';
 import { Notes } from '../../api/note/Notes';
 
 // Create a schema to specify the structure of the data to appear in the form.
