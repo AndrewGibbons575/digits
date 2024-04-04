@@ -77,13 +77,13 @@ Clicking on the Login link, then on the Sign In menu item displays this page:
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
 
-<img src="doc/landing.png">
+<img src="doc/register.png">
 
 #### Landing (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-after-login-page.png)
+<img src="doc/register.png">
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
